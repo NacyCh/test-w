@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/addCgi/addCgi",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#007AFF",
+    "navigationBarTitleText": "A Test",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar":{
+    "selectedColor": "#007AFF",
+    "list":[{
+      "pagePath": "pages/home/home",
+      "iconPath": "pages/icon/home.png",
+      "selectedIconPath": "pages/icon/shome.png",
+      "text": "主页"
+    },{
+      "pagePath": "pages/index/index",
+      "iconPath": "pages/icon/account.png",
+      "selectedIconPath": "pages/icon/saccount.png", 
+      "text": "我的"
+    }]
+  },
+  "debug": true
+}
